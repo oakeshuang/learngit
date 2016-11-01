@@ -21,4 +21,13 @@ git remote add origin git@github.com:oakeshuang/learngit.git
 git push -u origin master
 
 	--http://blog.csdn.net/huangyabin001/article/details/35557231 （基础）
+
+
+
+1.	git branch dev		创建分支
+2.	git checkout dev 	切换分支
+3.	git checkout -b dev 创建并切换分支命令
+4.	git branch 			查看当前分支
+5. 	git merge dev		合并分支
+
 	--http://blog.csdn.net/huangyabin001/article/details/35840591 （分支）
