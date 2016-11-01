@@ -16,6 +16,13 @@
 6.git checkout			撤销修改 
 7.git reset HEAD file	把暂存区的修改撤掉（unstage），重新放回工作区
 8.git rm				删除文件 
+9.git push -u origin master	推送本地分支到远程分支
+10.git pull 			获取远程代码
+11.git push 			提交本地代码
 
 
 D:\git\learngit\mydd
+
+git 报错
+1.The file will have its original line endings in your working directory
+解决：git config --global core.autocrlf  false   // 这个设置可以取消Git的自动替换 换行方式 的选项
