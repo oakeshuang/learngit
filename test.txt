@@ -1,1 +1,18 @@
-this is my first  time to use sublime;
+#this is my first  time to use sublime;
+1.通过git init命令把这个目录编程GIt可以管理的仓库
+2添加文件到资源库
+	git add		把文件添加到资源库
+	git commit	把文件提交到仓库：
+3.版本回退
+	git status命令查看状态
+	git diff命令查看详细修改内容
+	git log查看修改记录
+		不需要提交人，提交时间,只需要加上“--pretty=online”参数即可
+	git log --pretty=oneline
+4.使用git reset命令回退版本
+	git reset --hard HEAD^
+	HEAD^ : 版本号前七位数
+5.git reflog 			记录我们每次执行的命令
+6.git checkout			撤销修改 
+7.git reset HEAD file	把暂存区的修改撤掉（unstage），重新放回工作区
+8.git rm				删除文件 
