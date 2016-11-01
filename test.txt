@@ -29,5 +29,6 @@ git push -u origin master
 3.	git checkout -b dev 创建并切换分支命令
 4.	git branch 			查看当前分支
 5. 	git merge dev		合并分支
-
-	--http://blog.csdn.net/huangyabin001/article/details/35840591 （分支）
+6.  git branch -d dev	删除分支
+7.
+	--http://blog.csdn.net/huangyabin001/article/details/35840591 （分支）"ddd" 
